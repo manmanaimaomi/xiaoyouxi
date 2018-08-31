@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=640,user-scalable=no,target-densitydpi=320">
+	<title>名侦探总动员</title>
+	<link rel="stylesheet" href="css/index.css"> 
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?7e727329366dc2c48834def3e98e4847";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+	<!-- uniclickTracking -->
+	<script type="text/javascript">
+	var _utaq = _utaq || [];
+	_utaq.push(["trackPageView"]);
+	_utaq.push(["enableLinkTracking"]);
+	(function() {
+	var utu=(("https:" == document.location.protocol) ? "https" : "http") + "://sit.gentags.net/";
+	_utaq.push(["setTrackerUrl", utu+"site/unids.gif"]);
+	_utaq.push(["setSiteId", "1418"]);
+	var t=parseInt((new Date()).getTime()/1000);
+	var utd=document, ut=utd.createElement("script"), s=utd.getElementsByTagName("script")[0]; ut.type="text/javascript";
+	ut.defer=true; ut.async=true; ut.src=utu+"adagent/js/uta.js?v="+(t-t%300); s.parentNode.insertBefore(ut,s);
+	})();
+	</script>
+	<noscript><img src="http://sit.gentags.net/site/img?site=1418" style="border:0" alt="" /></noscript>
+	<!-- End uniclickTracking Code -->
+	<script src="js/jquery-1.11.3.min.js"></script> 
+	<script src="js/imgArr.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<div class="content">
+			<img src="img/page1_menu_btn.png" alt="" class="menu" id='btn-1'>
+			<img src="img/logo.png" alt="" class="logo">
+			<img src="img/logo_kenan.png" alt="" class="logo_kenan">
+			<img src="img/logo_new.png" alt="" class="logo_new">
+			<!-- 首页 -->
+			<div class="con" id="page1">
+				<img src="img/page1_door.png" alt="" class="door">
+				<img src="img/page1_land.png" alt="" class="land">
+				<img src="img/page1_light.png" alt="" class="light">
+				<img src="img/page1_kenan.png" alt="" class="kenan">
+				<img src="img/page1_tang_l.png" alt="" class="suger1">
+				<img src="img/page1_tang_c.png" alt="" class="suger2">
+				<img src="img/page1_tang_r.png" alt="" class="suger3">
+
+				<img src="img/page1_btn.png" alt="" class="btn" id='btn-2'>
+				<img src="img/page1_share_btn.png" alt="" class="page1_share_btn" id='btn-3'>
+				<img src="img/share_word1.png" alt="" class="page1_share_word1">
+				<img src="img/page1_btn1.png" alt="" class="btn1" id='btn-4'>
+			</div>
+
+			<!-- 卡牌 -->
+			<div class="con" id="page2">
+				<img src="img/page2_bc1.png" alt="" class="page2_bc1">
+				<img src="img/page2_bc2.png" alt="" class="page2_bc2">
+				<img src="img/page2_bc3.png" alt="" class="page2_bc3">
+				<div class="lvjing2"></div>
+				<img src="img/page2_title.png" alt="" class="page2_title">
+				<img src="img/page2_word.png" alt="" class="page2_word">
+				<div class="internetke clearfix">
+				    <div id="phoneCarousel">
+				        <div id="stage">
+			              <img src="img/luo/1.jpg" id="p1" class="default" />
+			              <img src="img/luo/2.jpg" id="p2" /> 
+			              <img src="img/luo/3.jpg" id="p3" /> 
+			              <img src="img/luo/4.jpg" id="p4" />
+			              <img src="img/luo/5.jpg" id="p5" />
+			              <img src="img/luo/6.jpg" id="p6" />  
+			              <img src="img/luo/7.jpg" id="p7" /> 
+			              <img src="img/luo/8.jpg" id="p8" />
+			              <img src="img/luo/9.jpg" id="p9" />
+			              <img src="img/luo/10.jpg" id="p10" /> 
+				        </div>
+				    </div>
+		    	</div> 
+		    	<div class="page2_tan1 page2_tan">
+	    			<img src="img/page2_tan_fra1.png" alt="" class="page2_tan_fra">
+	    			<div class="page2_tan_btn1"  id='btn-15'></div>
+	    			<div class="page2_tan_btn2"  id='btn-16'></div>
+	    			<span class="int">30</span>
+	    			<div class="page2_tan_close"  id='btn-17'></div>
+		    	</div>
+		    	<div class="page2_tan2 page2_tan">
+	    			<img src="img/page2_tan_fra.png" alt="" class="page2_tan_fra">
+	    			<div class="page2_tan2_btn1"  id='btn-18'></div>
+	    			<div class="page2_tan2_close"  id='btn-19'></div>
+		    	</div>
+			</div>
+
+			<!-- 罗盘 -->
+			<div class="con" id="page3">
+				<img src="img/page3_bc1.png" alt="" class="page3_bc1">
+				<img src="img/page3_bc2.png" alt="" class="page3_bc2">
+				<img src="img/page3_bc3.png" alt="" class="page3_bc3">
+
+				<!-- only page3 -->
+				<div class="lvjing3"></div>
+				<img src="img/page3_title.png" alt="" class="page3_title">
+				<div class="page3_prize_list">
+					<div class="page3_prize_out" id="outer">
+						 <div class="page3_prize_in" id="inner">
+							<!-- <div class="each">
+								xxx傻<br>确实傻
+							</div>
+												//////////////////////////////
+							<div class="each">
+								xxx傻<br>确实傻
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<img src="img/page3_conan.png" alt="" class="page3_conan">
+				<!-- 罗盘抽奖 -->
+				<div class="turnplate_box">
+					<img src="img/draw.gif" alt="" class="pan">
+					<div class="pan_point"></div>
+					<div id="btn-20" class="turnplatw_btn"></div>
+				</div>
+				<div class="page3_tan">
+		    			<div class="page3_point">
+		    			<!-- 恭喜 背景 -->
+			    			<img src="img/page3_tan_fra_b.png" alt="" class="page3_tan_fra1 suc_bc">
+			    			<!-- 失败背景 -->
+			    			<img src="img/page3_prize_fail.png" alt="" class="page3_tan_fra2 no_bc">
+							
+							<!-- ***************按钮*************** -->
+							<!-- 填信息 -->
+			    			<img src="img/page3_tan_btn.png" alt="" class="page3_tan_btn page3_tan_btn1" id="btn-21">
+			    			<!-- 下载 -->
+			    			<a href="" class="page3_tan_btn page3_tan_btn2"  id="btn-22"><img src="img/page3_tan_btn2.png" alt=""></a>
+			    			<!-- 挑战 -->
+			    			<img src="img/page2_tan_btn1.png" alt="" class="page3_tan_btn page3_tan_btn3"  id="btn-23">
+			    			<!-- **************奖品图片************** -->
+			    			<img src="img/page3_prize1.png" alt="" class="page3_prize">
+			    			<img src="img/page3_prize_points.png" alt="" class="page3_prize_points">
+			    			<span class='points_use luo_points'>50</span>
+			    			<span class='points_now luo_points'></span>
+
+
+			    			<div class="page3_tan_close page3_close1"  id="btn-5"></div>
+			    			<div class="page3_tan_close page3_close2"  id="btn-5"></div>
+			    			<div class="page3_tan_close1"  id="btn-6"></div>
+		    			</div>
+
+			    		<div class="luo_point">
+			    			<img src="img/personal_tan_fra.png" alt="" class="luo_tan_fra">
+			    			<!-- 二维码 -->
+							<div class="luo_tianxie">
+								<div class="t"><div>姓名</div><input class="uesr_name" type="text"></div>
+								<div class="t"><div>身份证号</div><input class="pid" type="text"></div>
+								<div class="t"><div>联系方式</div><input class="phone" type="text"></div>
+								<div class="t"><div>收件地址</div><input class="address" type="text"></div>	
+								<div class="t"><div>邮编</div><input class="code" type="text"></div>
+								<div class="t"><div>备注</div>
+									<textarea class="note" name="" id="" cols="30" rows="2"></textarea>
+								</div>
+								<img src="img/personal_tianxie.png" class="l_tianxie_btn" id="btn-56"></img>
+							</div>
+			    			<div class="luo_tan_close"  id="btn-26"></div>
+			    		</div>
+		    	</div>
+			</div>
+
+			<!-- TVC -->
+			<div class="con" id="page4">
+				<div class="vedio_out">
+					<video src="oimg/160325_Alpenliebe_Conan_15s.mp4" width="100%" height="100%" id="myVedio" style="z-index:-1;"></video>
+				</div>
+			</div>
+
+			<!-- 棒棒糖世界 -->
+			<div class="con" id="page5">
+				<img src="img/page5_bc1.png" alt="" class="page5_bc1">
+				<img src="img/page5_bc2.png" alt="" class="page5_bc2">
+				<img src="img/page5_bc3.png" alt="" class="page5_bc3">
+			
+				<div class="lvjing5"></div>
+				<div class="page5_bao">
+					<img src="img/page5_ban.png" alt="" class="page5_ban">
+					
+					<div class="page5_con">
+						<div class="swiper-container">
+					        <div class="swiper-wrapper">
+					            <div class="swiper-slide">
+					        		<img src="img/page5_p1_con.png" alt="" class="page5_p1_con">
+					            </div>
+					            <div class="swiper-slide">
+					        		<img src="img/page5_p2_con.png" alt="" class="page5_p2_con">
+					        		<span class='tang1'></span>
+					        		<span class='tang2'></span>
+					        		<span class='tang3'></span>
+					        		<span class='tang4'></span>
+					        		<span class='tang5'></span>
+					        		<span class='tang6'></span>
+					        		<span class='tang7'></span>
+					        		<span class='tang8'></span>
+					            </div>
+					            <div class="swiper-slide">
+					        		<img src="img/page5_p3_con.png" alt="" class="page5_p3_con">
+					            </div>
+					            <div class="swiper-slide">
+					        		<img src="img/page5_p4_con.png" alt="" class="page5_p4_con">
+					            </div>
+					        </div>
+					        <!-- Add Pagination -->
+					        <div class="swiper-pagination">
+						       	<span></span>
+						       	<span></span>
+						       	<span></span>
+						       	<span></span>
+					       </div>
+					    </div>
+				    </div>
+			    </div>
+			</div>
+
+			<!-- 侦探大挑战 -->
+			<div class="con" id="game">
+				<img src="img/page6_bc1.png" alt="" class="page6_bc1">
+				<img src="img/page6_bc2.png" alt="" class="page6_bc2">
+				<img src="img/page6_bc3.png" alt="" class="page6_bc3">
+				<!-- 引导页 -->
+				<img src="img/page6_ban.png" alt="" class="page6_ban">
+				<img src="img/page6_conan.png" alt="" class="page6_conan">
+				<img src="img/page6_word.png" alt="" class="page6_word">
+				<!--引导页 难度按钮 -->
+				<div class="page6_btn page6_btn1"  id="btn-27" myAttr="1"></div>
+				<div class="page6_btn page6_btn2"  id="btn-28" myAttr="2"></div>
+				<div class="page6_btn page6_btn3"  id="btn-29" myAttr="3"></div>
+				<!-- 前言柯南 -->
+				<img src="img/page6_game_conan.png" alt="" class="page6_game_conan">
+				<!-- game前言开始文字和按钮 -->
+				<div  class="page6_game1_word">
+				<img src="img/page6_game1_word.png" alt=""  class="page6_game1_word_b">
+				<span class="game_num">3</span>
+				<span class="game_num">4</span>
+				<span class="game_num">5</span>
+				</div>
+				<div class="page6_game1_btn"  id="btn-30"></div>
+				<img src="img/page6_game2_word.png" alt="" class="page6_game2_word">
+				<div class="page6_game2_btn"  id="btn-31"></div>
+				<img src="img/page6_game3_word.png" alt="" class="page6_game3_word">
+				<div class="page6_game3_btn"  id="btn-32"></div>
+				<!-- 游戏页面-->
+				<div class="game game1">
+					<img src="img/game_time.png" alt="" class="time_bc">
+					<span class="time_num"></span>
+					<span class="unit">秒</span>
+					<div class="time_all">
+						<div class="progress game1_progress"></div>
+					</div>
+					<span class="daoju daoju1" id="btn-33"></span>
+					<!-- 低 -->
+					<div class="game1_p  g1_p1">
+						<div class="game1_left">
+							<img src="img/game1_pic1_l.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+						<div class="game1_right">
+							<img src="img/game1_pic1_r.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="game1_p  g1_p2">
+						<div class="game1_left">
+							<img src="img/game1_pic2_l.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+						<div class="game1_right">
+							<img src="img/game1_pic2_r.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="game1_p  g1_p3">
+						<div class="game1_left">
+							<img src="img/game1_pic3_l.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+						<div class="game1_right">
+							<img src="img/game1_pic3_r.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<!-- 中 -->
+					<div class="game1_p g1_p4">
+						<div class="game1_left">
+							<img src="img/game1_pic4_l.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+						<div class="game1_right">
+							<img src="img/game1_pic4_r.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="game1_p g1_p5">
+						<div class="game1_left">
+							<img src="img/game1_pic5_l.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+						<div class="game1_right">
+							<img src="img/game1_pic5_r.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="game1_p g1_p6">
+						<div class="game1_left">
+							<img src="img/game1_pic6_l.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+						<div class="game1_right">
+							<img src="img/game1_pic6_r.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<!-- 高 -->
+					<div class="game1_p g1_p7">
+						<div class="game1_left">
+							<img src="img/game1_pic7_l.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark5">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+
+						</div>
+						<div class="game1_right">
+							<img src="img/game1_pic7_r.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark5">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="game1_p g1_p8">
+						<div class="game1_left">
+							<img src="img/game1_pic8_l.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark5">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+
+						</div>
+						<div class="game1_right">
+							<img src="img/game1_pic8_r.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark5">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="game1_p g1_p9">
+						<div class="game1_left">
+							<img src="img/game1_pic9_l.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark5">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+						<div class="game1_right">
+							<img src="img/game1_pic9_r.jpg" alt="" class="game1_pic">
+							<div class="mark mark1">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark2">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark3">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark4">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+							<div class="mark mark5">
+								<svg >
+									<circle cx="50%" cy="50%" r="40%" stroke-width="10%"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="game game2">
+					<img src="img/game_time.png" alt="" class="time_bc">
+					<span class="time_num"></span>
+					<span class="unit">秒</span>
+					<div class="time_all">
+						<div class="progress game2_progress"></div>
+					</div>
+					<span class="daoju daoju2" id="btn-34"></span>
+					<!-- game2 内容 -->
+					<div class="game2_p">
+						<!-- 背景墙 -->
+						<img src="img/game2_bc1.png" alt="" class="game2_bc game2_bc1"></img>
+						<img src="img/game2_bc2.png" alt="" class="game2_bc game2_bc2"></img>
+						<img src="img/game2_bc3.png" alt="" class="game2_bc game2_bc3"></img>
+						<!-- 人物图片 -->
+						<img src="img/game2_p1.png" alt="" class="people">
+						<img src="img/game2_p2.png" alt="" class="people">
+						<img src="img/game2_p3.png" alt="" class="people">
+						<!-- 照想特效 -->
+						<img src="img/game2_p4.png" alt="" class="camera_light">
+						<!-- 照相机按钮图片 -->
+						<img src="img/game2_camera1.png" alt="" class="game2_camera game2_camera1"></img>
+						<img src="img/game2_camera2.png" alt="" class="game2_camera game2_camera2"></img>
+						<img src="img/game2_camera3.png" alt="" class="game2_camera game2_camera3"></img>
+					</div>
+				</div>
+				<div class="game game3">
+					<img src="img/game_time.png" alt="" class="time_bc">
+					<span class="time_num">30</span>
+					<span class="unit">秒</span>
+					<div class="time_all">
+						<div class="progress game3_progress"></div>
+					</div>
+					<span class="daoju daoju3" id="btn-35"></span>
+					<div class="game3_p">
+						<div id="vertical" class="vertical">
+							<div class="inner">
+								<img alt="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (1).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img lta="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (2).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img alt="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (3).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img alt="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (4).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img lta="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (5).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img alt="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (1).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img alt="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (2).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img alt="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (3).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img lta="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (4).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img alt="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (5).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img lta="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (4).jpg" class="info"/>
+							</div>
+							<div class="inner">
+								<img alt="" src="img/game3_card_back.jpg" class="card_bc" />
+								<img alt="" src="img/card/card (5).jpg" class="info"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 关卡结果 -->
+				<img src="img/page6_game_t1.png" alt="" class="suc1 xianjie_p">
+				<img src="img/page6_game_t2.png" alt="" class="suc2 xianjie_p">
+				<img src="img/page6_game_s.png" alt="" class="fail xianjie_p">
+
+				<img src="img/page6_game1_tword.png" alt="" class="s_word1 end_word">
+				<img src="img/page6_game2_tword.png" alt="" class="s_word2 end_word">
+
+				<img src="img/page6_game1_sword.png" alt="" class="fail_word1 end_word">
+				<img src="img/page6_game2_sword.png" alt="" class="fail_word2 end_word">
+				<img src="img/page6_game3_sword.png" alt="" class="fail_word3 end_word">
+
+				<div class="page6_x1_btn page6_x_btn"  id="btn-36"></div>
+				<div class="page6_x2_btn page6_x_btn"  id="btn-37"></div>
+				<div class="page6_x3_btn page6_x_btn"  id="btn-38"></div>
+
+				<div class="page6_xc1_btn page6_x_btn"  id="btn-5"></div>
+				<div class="page6_xc2_btn page6_x_btn"  id="btn-6"></div>
+
+				<!-- 通关 -->
+
+				<div class="s_word3">
+					<img src="img/page6_game3_tword.png" alt=""  class="s_word3_img">
+					<img src="img/page6_game3_tword1.png" alt=""  class="s_word3_img1">
+					<span class='game_jifen'></span>
+					<img src="img/page6_game3_tword2.png" alt=""  class="s_word3_img2">
+					<img src="img/game_t_j1.png" alt="" class="game_t_j">
+					<img src="img/page1_user.png" alt="" class="game_uer">
+					<div class="page6_t1_btn page6_t_btn"  id="btn-39"></div>
+					<div class="page6_t2_btn page6_t_btn"  id="btn-40"></div>
+					<div class="page6_t3_btn page6_t_btn"  id="btn-41"></div>
+				</div>
+			</div>
+
+			<!-- 糖果商店 -->
+			<div class="con" id="page6">
+			</div>
+			<!-- rule -->
+			<div class="con" id="rule">
+				<img src="img/page7_bc1.png" alt="" class="page_rule_bc1">
+				<img src="img/page7_bc2.png" alt="" class="page_rule_bc2">
+				<div class="lvjing_rule"></div>
+				<div class="rule_ban">
+					<img src="img/rule_ban.png" alt="" class="rule_ban_pic">
+					<div class="rule_tab">
+						<div class="tab1 tab">
+							<img src="img/rule_tab_bc1.png" alt="" class='tab_bc'>
+							<div class="rul_con">
+								<img src="img/rule_word.jpg" alt="" class="rul_word">
+							</div>
+							<div class="bar">
+								<div class="bar_inner"></div>
+							</div>
+						</div>
+						<div class="tab2 tab">
+							<img src="img/rule_tab_bc2.png" alt="" class='tab_bc'>
+							<div class="rul_con">
+								<img src="img/rule_word.jpg" alt="" class="rul_word">
+							</div>
+							<div class="bar">
+								<div class="bar_inner"></div>
+							</div>
+						</div>
+					</div>
+					<img src="img/rule_tab_word1.png" alt="" class="tab_title1"  id="btn-42">
+					<img src="img/rule_tab_word2.png" alt="" class="tab_title2"  id="btn-43">
+				</div>
+			</div>
+
+			<!-- 个人中心 -->
+			<div class="con" id="personal">
+
+				<img src="img/page8_bc1.png" alt="" class="page8_bc1">
+				<img src="img/page8_bc2.png" alt="" class="page8_bc2">
+				<img src="img/page8_bc3.png" alt="" class="page8_bc3">
+				<div class="lvjing_personal"></div>
+				
+				<div class="personal_out">
+					<img src="img/personal_ban.png" alt="" class="personal_ban">
+					<span class="personal_name"></span>
+					<span class="personal_int"></span>
+					<img class="user_pic" id="user_pic" width="165" height="166">
+					<img  class="user_pic_kuang" src="img/page1_user_kuang.png" alt="">
+					<img src="img/personal_none_prize.png" alt="" class="notice">
+					<div class="personal_prize">
+						<img src="img/prize_list_head.png" alt="" class="prize_head">
+						<div class="prize_list">
+							<div class="prize_list_inner">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 弹框 -->
+				<div class="personal_tan">
+		    		<div class="personal_point">
+		    			<img src="img/personal_tan_fra.png" alt="" class="personal_tan_fra">
+						<div class="tianxie">
+							<div class="t">
+								<div>姓名</div><input type="text" class="uesr_name">
+							</div>
+							<div class="t">
+								<div>身份证号</div><input type="text" class="pid">
+							</div>
+							<div class="t">
+								<div>联系方式</div><input type="text" class="phone">
+							</div>
+							<div class="t">
+								<div>收件地址</div><input type="text" class="address">
+							</div>	
+							<div class="t">
+								<div>邮编</div><input type="text" class="code">
+							</div>
+							<div class="t">
+								<div>备注</div>
+								<textarea name="" id="" cols="30" rows="2" class="note"></textarea>
+							</div>
+
+							<img src="img/personal_tianxie.png" class="tianxie_btn"  id="btn-44"></img>
+						</div>
+		    			<div class="personal_tan_close"  id="btn-45"></div>
+		    		</div>
+		    	</div>
+			</div>
+			<!-- menu -->
+			<div class="fu">
+				<div class="menu_inner">
+					<img class="menu_close" src="img/page1_fu_close.png" alt=""  id="btn-46">
+					<img src="img/page1_user.png" alt="" class="user"  id="btn-47">
+					<span class="user_down_word">侦探登录</span>
+					<a id="btn-48" href="http://www.alpenliebe.com.cn/conan/contact/example/oauth/index.php"></a>
+					<ul class="nav">
+						<li class="shouye" id="btn-49"><img src="img/page1_menu_on1.png" alt=""></li>
+						<li class="qiandao" id="btn-50"><img src="img/page1_menu_on2.png" alt=""></li>
+						<li class="choujiang" id="btn-51"><img src="img/page1_menu_on3.png" alt=""></li>
+						<li class="fangying" id="btn-52"><img src="img/page1_menu_on4.png" alt=""></li>
+						<li class="bangbang" id="btn-53"><img src="img/page1_menu_on5.png" alt=""></li>
+						<li class="shangdian" id="btn-54"><img src="img/page1_menu_on6.png" alt=""></li>
+					</ul>
+				</div>
+			</div>
+			<div class="share_fu">
+				<img src="img/share_fu_p.png" alt="" class="share_fu_img">
+				<div class="share_close" id="btn-55"></div>
+				<!-- JiaThis Button BEGIN -->
+				<div class="jiathis_style_32x32" id="share_jia">
+					<a id='weixin' class="jiathis_button_weixin"></a>
+					<a id='cqq' class="jiathis_button_cqq"></a>
+					<a id='qzone' class="jiathis_button_qzone"></a>
+					<a id='tsina' class="jiathis_button_tsina"></a>
+					<a id='tqq' class="jiathis_button_tqq"></a>
+					<a id='jabot' href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+				</div>
+				<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+				<!-- JiaThis Button END -->
+			</div>
+			<div class="share_fu_w">
+				<img src="img/share_fu_pic.png" alt="" class="share_fu_img1">
+				<img src="img/share_fu_pic1.png" alt="" class="share_fu_img2">
+			</div>
+			<div class="loading">
+				<img src="img/loading.png" alt="">
+				<p>0%</p>
+			</div>
+		</div>
+	</div>
+</body>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script> 
+	<script src="js/index.js"></script>
+	<script src="js/main.js"></script>
+</html>
